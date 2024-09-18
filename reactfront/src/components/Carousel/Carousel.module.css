@@ -1,0 +1,23 @@
+@import '../../variables.css';
+.carouselContainer {
+    position: relative;
+    width: 100%;
+    max-height: 500px; /* Ajusta según el tamaño que desees */
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--text-light-color); /* Usar la variable para el color del texto claro */
+    font-family: 'Montserrat', var(--font-family-base);
+    font-size: var(--font-size-heading);
+    text-align: center;
+  }
+  

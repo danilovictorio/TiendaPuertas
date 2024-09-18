@@ -1,0 +1,57 @@
+@import '../../variables.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); /* Importar fuente Montserrat con peso 700 */
+
+/* Header.module.css */
+.header {
+  width: 100%;
+  background-color: var(--primary-color); /* Usar la variable para el color primario */
+  color: var(--text-light-color); /* Usar la variable para el color del texto claro */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Montserrat', var(--font-family-base); /* Aplicar Montserrat como fuente principal */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Espacio entre logo y navegación */
+  padding: var(--spacing-small); /* Espaciado interno del header */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: var(--text-light-color); /* Usar la variable para el color del texto claro */
+  text-decoration: none;
+  font-size: var(--font-size-base); /* Usar la variable para el tamaño de fuente base */
+  font-weight: 600;
+}
+
+.logo img {
+  height: 100px; /* Tamaño de la imagen del logo */
+  margin-left: var(--spacing-small); /* Espacio a la izquierda del logo */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 var(--spacing-base); /* Usar la variable para el espaciado base */
+}
+
+nav ul li a {
+  color: var(--text-light-color); /* Usar la variable para el color del texto claro */
+  text-decoration: none;
+  font-size: var(--font-size-base); /* Usar la variable para el tamaño de fuente base */
+  font-weight: 600; /* Hacer el texto de los enlaces más grueso con Montserrat */
+}
+
+nav ul li a:hover {
+  color: var(--accent-color); /* Cambiar el color en hover usando la variable secundaria */
+}
