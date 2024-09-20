@@ -1,4 +1,3 @@
-// Carousel.js
 import React from 'react';
 import Slider from 'react-slick';
 import styles from './Carousel.module.css'; // Asegúrate de crear este archivo
@@ -11,11 +10,14 @@ const carouselImages = [
 
 function Carousel() {
   const settings = {
-    dots: true,
+    dots: false,
+    arrows: false,
     infinite: true,
     speed: 1500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    autoplay: true,          // Activa el autoplay
+    autoplaySpeed: 4000,     // Tiempo entre transiciones (3 segundos)
   };
 
   return (

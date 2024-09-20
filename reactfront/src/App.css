@@ -16,8 +16,8 @@ html {
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  background-color: var(--background-color); /* Usar variable para fondo */
-  color: var(--text-color); /* Usar variable para color de texto */
+  background-color: var(--primary-color); /* Usar variable para fondo */
+  color: var(--text-light-color); /* Usar variable para color de texto */
   line-height: 1.6;
   font-size: var(--font-size-base); /* Usar variable para tamaño de fuente */
 }

@@ -2,12 +2,12 @@
 .carouselContainer {
     position: relative;
     width: 100%;
-    max-height: 500px; /* Ajusta según el tamaño que desees */
+    z-index: 1;
   }
   
   .slide img {
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
   }
   
   .slogan {
