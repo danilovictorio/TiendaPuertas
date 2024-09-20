@@ -1,6 +1,66 @@
-@import '../../variables.css';
-
-.About{
+.About {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
     margin: 5%;
-    
-}
+  }
+  
+  .Description {
+    flex: 1;
+    margin-right: 2%;
+  }
+  
+  .Resumen {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    flex: 1;
+  }
+  
+  .Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 150px;
+    max-width: 200px;
+    flex: 1 1 auto;
+  }
+  
+  .Title {
+    font-size: var(--font-size-heading); /* Tamaño del título más grande */
+    margin-bottom: 5px;
+  }
+  
+  .Subtitle {
+    font-size: var(--font-size-large); /* Aumenté el tamaño del subtítulo */
+    margin-bottom: 10px;
+  }
+  
+  .Text {
+    font-size: var(--font-size-base); /* Texto más grande */
+    line-height: 1.6; /* Mayor espaciado entre líneas para mejor legibilidad */
+    margin-bottom: 20px;
+  }
+  
+  .Button {
+    background-color: #ff9900; /* Color de fondo atractivo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno (padding) */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+    font-weight: bold; /* Negrita para darle más presencia */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición en el hover */
+  }
+  
+  .Button:hover {
+    background-color: #cc7a00; /* Cambia el color al pasar el mouse */
+  }
+  
